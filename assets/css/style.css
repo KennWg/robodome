@@ -1,0 +1,27 @@
+/* general */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    font-family: 'Share Tech Mono', monospace;
+}
+
+/* display areas */
+
+#header-container {
+    height: 8vh;
+}
+
+#display-area-container {
+    height: 50vh;
+}
+
+#button-area-container {
+    height: 30vh;
+}
+
+#save-load-container {
+    height: 8vh;
+}
