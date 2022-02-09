@@ -29,7 +29,7 @@
     </section>
     <section class="container-fluid" id="button-area-container">
         <div class="row justify-content-center h-100 mt-2">
-            <div class="col-10 border border-success border-2 align" id="button-area">
+            <div class="col-10" id="button-area">
                 <div class="d-flex row h-100 justify-content-center align-items-center" id="initial-screen">
                     <div class="col-6 h-25 text-center">
                         <div class="row h-100">
@@ -74,8 +74,16 @@
     </section>
     <section class="container-fluid" id="save-load-container">
         <div class="row justify-content-center h-100 mt-2">
-            <div class="col-5 border border-primary border-2" id="save-area"></div>
-            <div class="col-5 border border-secondary border-2" id="load-area"></div>
+            <div class="col-5" id="save-area">
+                <div class="row w-100 h-100 mx-auto">
+                    <button class="btn btn-lg btn-info" id="save">Save</button>
+                </div>
+            </div>
+            <div class="col-5" id="load-area">
+                <div class="row w-100 h-100 mx-auto">
+                    <button class="btn btn-lg btn-secondary" id="load">Load</button>
+                </div>
+            </div>
         </div>
     </section>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
