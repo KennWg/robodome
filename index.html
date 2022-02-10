@@ -27,7 +27,20 @@
                 <div id="initial-message" class="d-flex row justify-content-center align-items-center h-100">
                     <h2 class="col-6 text-primary text-center" id="initial-text"><span class="oi oi-cog"></span> Welcome to Robodome! <span class="oi oi-cog"></span></h2>
                 </div>
-                <div id="combat-screen" class="d-none row justify-content-center align-items-center h-100"></div>
+                <div id="combat-screen" class="d-none row justify-content-center align-items-center h-100">
+                    <div class="col-4" id="player-display">
+                        <div class="row" id="player-image"></div>
+                        <div class="row" id="player-data"></div>
+                    </div>
+                    <div class="col-4 text-center h-100" id="combat-info">
+                        <h5 class="my-3">Combat Log</h5>
+                        <ul id="combat-log"></ul>
+                    </div>
+                    <div class="col-4" id="enemy-display">
+                        <div class="row" id="enemy-image"></div>
+                        <div class="row" id="enemy-data"></div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
