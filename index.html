@@ -24,9 +24,10 @@
     <section class="container-fluid" id="display-area-container">
         <div class="row justify-content-center h-100 mt-2">
             <div class="col-10 border border-danger border-2" id="display-area">
-                <div id="initial message" class="row justify-content-center align-items-center h-100">
+                <div id="initial-message" class="d-flex row justify-content-center align-items-center h-100">
                     <h2 class="col-6 text-primary text-center" id="initial-text"><span class="oi oi-cog"></span> Welcome to Robodome! <span class="oi oi-cog"></span></h2>
                 </div>
+                <div id="combat-screen" class="d-none row justify-content-center align-items-center h-100"></div>
             </div>
         </div>
     </section>
@@ -37,7 +38,7 @@
             <div class="col-10" id="button-area">
 
                 <!--Initial Screen-->
-                <div class="d-flex row h-100 justify-content-center align-items-center" id="initial-screen">
+                <div class="d-flex row h-100 justify-content-center align-items-center" id="initial-buttons">
                     <div class="col-6 h-25 text-center">
                         <div class="row h-100">
                             <button type="button" class="btn btn-secondary btn-lg" id="new-game" data-bs-toggle="modal" data-bs-target="#start-modal">Start New Game</button>
